@@ -1,15 +1,15 @@
 // import logo from './logo.svg';
 import './App.css';
-// import Dashboard from './Dashboard/Dashboard';
-import LandingPage from './Layout/LandingPage';
+import Dashboard from './Dashboard/Dashboard';
+// import LandingPage from './Layout/LandingPage';
 // import SignInSide from './Layout/SignInSide';
 
 function App() {
   return (
     <div className="App">
       {
-        <LandingPage/>
-        // <Dashboard/>
+        // <LandingPage/>
+        <Dashboard/>
       // <SignInSide/>
       /* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

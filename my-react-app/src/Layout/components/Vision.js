@@ -1,57 +1,57 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import Card from '@mui/material/Card';
-import Chip from '@mui/material/Chip';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
+// import Button from '@mui/material/Button';
+// import Card from '@mui/material/Card';
+// import Chip from '@mui/material/Chip';
+// import CardActions from '@mui/material/CardActions';
+// import CardContent from '@mui/material/CardContent';
 import Container from '@mui/material/Container';
-import Divider from '@mui/material/Divider';
+// import Divider from '@mui/material/Divider';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
-import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
-import CheckCircleRoundedIcon from '@mui/icons-material/CheckCircleRounded';
+// import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
+// import CheckCircleRoundedIcon from '@mui/icons-material/CheckCircleRounded';
 
 const tiers = [
-  {
-    title: 'Free',
-    price: '0',
-    description: [
-      '10 users included',
-      '2 GB of storage',
-      'Help center access',
-      'Email support',
-    ],
-    buttonText: 'Sign up for free',
-    buttonVariant: 'outlined',
-  },
-  {
-    title: 'Professional',
-    subheader: 'Recommended',
-    price: '15',
-    description: [
-      '20 users included',
-      '10 GB of storage',
-      'Help center access',
-      'Priority email support',
-      'Dedicated team',
-      'Best deals',
-    ],
-    buttonText: 'Start now',
-    buttonVariant: 'contained',
-  },
-  {
-    title: 'Enterprise',
-    price: '30',
-    description: [
-      '50 users included',
-      '30 GB of storage',
-      'Help center access',
-      'Phone & email support',
-    ],
-    buttonText: 'Contact us',
-    buttonVariant: 'outlined',
-  },
+  // {
+  //   title: 'Free',
+  //   price: '0',
+  //   description: [
+  //     '10 users included',
+  //     '2 GB of storage',
+  //     'Help center access',
+  //     'Email support',
+  //   ],
+  //   buttonText: 'Sign up for free',
+  //   buttonVariant: 'outlined',
+  // },
+  // {
+  //   title: 'Professional',
+  //   subheader: 'Recommended',
+  //   price: '15',
+  //   description: [
+  //     '20 users included',
+  //     '10 GB of storage',
+  //     'Help center access',
+  //     'Priority email support',
+  //     'Dedicated team',
+  //     'Best deals',
+  //   ],
+  //   buttonText: 'Start now',
+  //   buttonVariant: 'contained',
+  // },
+  // {
+  //   title: 'Enterprise',
+  //   price: '30',
+  //   description: [
+  //     '50 users included',
+  //     '30 GB of storage',
+  //     'Help center access',
+  //     'Phone & email support',
+  //   ],
+  //   buttonText: 'Contact us',
+  //   buttonVariant: 'outlined',
+  // },
 ];
 
 export default function Pricing() {
@@ -75,13 +75,14 @@ export default function Pricing() {
         }}
       >
         <Typography component="h2" variant="h4" color="text.primary">
-          Pricing
+          Our Vision
         </Typography>
         <Typography variant="body1" color="text.secondary">
           Quickly build an effective pricing table for your potential customers with
-          this layout. <br />
+          this layout. <br/>
           It&apos;s built with default Material UI components with little
-          customization.
+          customization. <br/>
+          Our vision is to impower underrated artist a give their own space to grow and make a fanbase.
         </Typography>
       </Box>
       <Grid container spacing={3} alignItems="center" justifyContent="center">
@@ -93,7 +94,7 @@ export default function Pricing() {
             sm={tier.title === 'Enterprise' ? 12 : 6}
             md={4}
           >
-            <Card
+            {/* <Card
               sx={{
                 p: 2,
                 display: 'flex',
@@ -192,8 +193,8 @@ export default function Pricing() {
                     </Typography>
                   </Box>
                 ))}
-              </CardContent>
-              <CardActions>
+              </CardContent> */}
+              {/* <CardActions>
                 <Button
                   fullWidth
                   variant={tier.buttonVariant}
@@ -204,7 +205,7 @@ export default function Pricing() {
                   {tier.buttonText}
                 </Button>
               </CardActions>
-            </Card>
+            </Card> */}
           </Grid>
         ))}
       </Grid>

@@ -12,7 +12,7 @@ import AppAppBar from './components/AppAppBar';
 import Hero from './components/Hero';
 import LogoCollection from './components/LogoCollection';
 import Highlights from './components/Highlights';
-import Pricing from './components/Pricing';
+import Pricing from './components/Vision';
 import Features from './components/Feat';
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
